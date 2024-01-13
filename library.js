@@ -32,10 +32,10 @@
                         <p id="page">${books[i].number}</p>
                     </div>
                     <div class="icons">
-                        <div id="edit" onClick(editBook())>
+                        <div id="edit" onclick(editBook(${i}))>
                             <i class="fa-solid fa-pen-to-square"></i>
                         </div>
-                        <div id="delete"><i class="fa-solid fa-trash"></i></div>
+                        <button id="delete" onclick="deleteBook(${i})"><i class="fa-solid fa-trash"></i></button>
                     </div>
                 </div>
             <div>
@@ -58,3 +58,6 @@
         addItem(books)
         window.location.reload();
     })
+function deleteBook(id){
+    console.log("id");
+}
