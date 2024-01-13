@@ -1,0 +1,78 @@
+.container{
+    background-color:#181C1B;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.header{
+    background-color: #212C29;
+    height: 45%;
+    width: 90%;
+    border-radius: 60px;
+    padding-left: 7%;
+    padding-top: 1%;
+}
+.header h1{
+    color: #F9FAD0;
+    width: 40%;
+    font-family: Poppins;
+}
+.header p{
+    width: 29%;
+    color: #CECECE;
+}
+.wrapper{
+    display: flex;
+    gap: 5%;
+    margin-top: 55px;
+}
+.inputs{
+    margin-top: 15px;
+    display: flex;
+    gap: 1%;
+}
+input::placeholder{
+    color: #F9FAD0;
+    font-family: Poppins;
+    font-weight: 100;
+}
+.inputs input{
+    height: 34px;
+    background-color: #181C1B;
+    border: 1px solid #A5A763;
+    border-radius: 20px;
+    padding-left: 3%;
+    color: #F9FAD0;
+}
+#send{
+    padding-left: 2%;
+    background-color: #A5A763;
+    color: #181C1B;
+}
+.display{
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+.content{
+    display: flex;
+    background-color: #1C201F;
+    box-shadow: 0px 1px 1px 1px #F9FAD0;
+    border-radius: 40px;
+    gap: 120px;
+    padding-left: 20px;
+    height: 50px;
+    color: #F9FAD0;
+    font-family: Poppins;
+}
+#nomero{
+    background-color: black;
+    size: 2px;
+    height: 25px;
+    padding-top: 5px;
+    width: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 50%;
+}
