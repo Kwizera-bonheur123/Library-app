@@ -48,6 +48,7 @@ input::placeholder{
     padding-left: 2%;
     background-color: #A5A763;
     color: #181C1B;
+    cursor: pointer;
 }
 .display{
     width: 81%;
