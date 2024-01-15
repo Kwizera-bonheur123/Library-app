@@ -50,6 +50,13 @@ input::placeholder{
     color: #181C1B;
     cursor: pointer;
 }
+#editbtn{
+    padding-left: 2%;
+    background-color: #A5A763;
+    color: #181C1B;
+    cursor: pointer;
+    display: none;
+}
 .display{
     width: 81%;
     margin-left: 7%;
